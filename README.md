@@ -1,7 +1,7 @@
-Role Name
-=========
+EXA
+===
 
-A brief description of the role goes here.
+Ansible role to install and upgrade EXA (a modern replacment for 'ls'.)
 
 Requirements
 ------------
@@ -30,7 +30,7 @@ Including an example of how to use your role (for instance, with variables passe
 License
 -------
 
-BSD
+GPLv3
 
 Author Information
 ------------------
