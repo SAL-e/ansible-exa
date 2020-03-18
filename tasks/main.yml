@@ -1,10 +1,10 @@
 ---
 # tasks file for ansible-exa
-- name: Download exa v0.8.0 binary archive (.zip) and extract it into /usr/local/bin
+- name: Download exa v0.9.0 binary archive (.zip) and extract it into /usr/local/bin
   unarchive:
-    src: https://github.com/ogham/exa/releases/download/v0.8.0/exa-linux-x86_64-0.8.0.zip
+    src: https://github.com/ogham/exa/releases/download/v0.9.0/exa-linux-x86_64-0.9.0.zip
     dest: /usr/local/bin
-    remote_src: yes 
+    remote_src: yes
 
 - name: Rename 'exa-linux-x86_64' to 'exa'
   command: mv /usr/local/bin/exa-linux-x86_64 /usr/local/bin/exa
