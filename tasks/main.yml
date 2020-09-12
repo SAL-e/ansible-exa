@@ -11,4 +11,3 @@
     src: /usr/local/bin/exa-linux-x86_64
     dest: /usr/local/bin/exa
     state: link
-    mode: '0755'
