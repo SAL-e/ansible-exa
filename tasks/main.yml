@@ -6,5 +6,8 @@
     dest: /usr/local/bin
     remote_src: yes
 
-- name: Rename 'exa-linux-x86_64' to 'exa'
-  command: mv /usr/local/bin/exa-linux-x86_64 /usr/local/bin/exa
+- name: Create symlink 'exa' to 'exa-linux-x86_64'
+  file:
+    src: /usr/local/bin/exa-linux-x86_64
+    dest: /usr/local/bin/exa
+    state: link
